@@ -2,7 +2,7 @@ body { /* Phần thân của trang web */
     background-color: #0d1117;
 }
 
-p { /* Đoạn văn bản */
+p, ul { /* Đoạn văn bản và danh sách */
     color: white;
     font-family: 'Consolas';
 }
