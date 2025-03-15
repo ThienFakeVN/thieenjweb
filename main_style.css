@@ -1,7 +1,21 @@
-/* Ok để xem tệp CSS của thằng này trông như thế nào */
-
-div { /* Ok trông như thằng này muốn thiết kế nội dung trong thẻ div à */
-  background-color: #FFF4A3;
+body { /* Phần thân của trang web */
+    background-color: #0d1117;
 }
 
-/* Thôi lười quá không làm nữa :P */
+p { /* Đoạn văn bản */
+    color: white;
+    font-family: 'Consolas';
+}
+
+h1, h2, h3, h4, h5, h6 { /* Đề mục */
+    display: block;
+    color: white;
+    font-family: 'Consolas';
+    font-weight: bold;
+}
+
+strong { /* Highlight phần quan trọng */
+    color: red;
+    font-family: 'Consolas';
+    background-color: #ffcccc;
+}
